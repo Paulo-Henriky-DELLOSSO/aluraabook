@@ -1,0 +1,30 @@
+@import url("/styleess/header.css");
+@import url("/styleess/banner.css");
+@import url("/styleess/main.css");
+@import url("/styleess/topicos.css");
+@import url("/styleess/contato.css");
+@import url("/styleess/footer.css");
+
+:root {
+    /*colors*/
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffffff;
+    --branco2: #F9F9F9;
+    --cinza: #858585;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --azul: #002F52;
+    --preto: #000000;
+    --grafite: #474646;
+
+    /*fonts*/
+    --fonte-principal: 'Poppins';
+    --fonte-secundaria: 'Josefin Sans';
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
